@@ -32,10 +32,13 @@ func inpMessage() {
 }
 
 func inpAddressTo() int {
+	var addrTo [40]byte
+
 	fmt.Scanf(
 		"%s\n",
 		&addrTo,
 	)
+	fmt.Println(addrTo[2])
 	return 0
 }
 

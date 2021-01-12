@@ -11,7 +11,7 @@ const (
 	host      = "mail.nic.ru"
 	numport   = ":25"
 	addrFrom  = "sendertab@catelecom.ru"
-	passwMail = "jc39vI71"
+	passwMail = ""
 	//sslpost	= "true"
 	//authent = "plain"
 
